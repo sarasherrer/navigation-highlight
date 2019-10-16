@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  /* font-family: 'Sigmar One', cursive; */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* INDEX>HTML */
+body {
+  margin: 0;
+}
+
+nav {
+  display: block;
+  background-color: #ffe500;
+  padding-top: .75em;
+  text-align: center;
+  margin: 0;
+
+
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: .2em .5em .3em;
+  background-color: rgba(47, 45, 19, 0.4);
+  border-radius: 4px;
+}
+
+nav li a {
+font-size: 1.125rem;
+list-style-type: none;
+text-decoration: none;
+color: #fff;
+
+
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Sigmar One, cursive;
+  color:#cc1465;
+  margin: 0;
+}
+
+main h2{
+  font-family: Sigmar One, cursive;
+  color:#cc1465;
+  font-size: 1.875rem;
+
+}
+
+footer {
+  display: block;
+  background-color: #ffe500;
+  padding-top: .75em;
+  text-align: center;
+  margin: 0;
+}
+
+nav li:hover {
+  background-color: #cc1465;
+}
+
+.current {
+  background-color: #b20953;
+}
+/* OTHER PAGES */
